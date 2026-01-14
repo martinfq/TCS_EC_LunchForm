@@ -26,7 +26,7 @@ El comportamiento puede ejecutarse **con o sin filtrado**, según la configuraci
 pip install -r requirements.txt
 
 
-## 🧾 Archivo de valores
+# 🧾 Archivo de valores
 
 Los valores del formulario se cargan desde un archivo JSON -> values.json
 {
@@ -49,7 +49,7 @@ TIPO: Desayuno, Almuerzo, Cena
 
 MENU: Completo, Vegano, Snack
 
-## SEMANA COMPLETA o DÍA ESPECÍFICO
+# SEMANA COMPLETA o DÍA ESPECÍFICO
 
 ### Para ejecutar la semana completa (sin filtro)
 
