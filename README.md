@@ -40,9 +40,13 @@ Los valores del formulario se cargan desde un archivo JSON -> values.json
 1. Reemplaza los valores de las claves con tu información personal.
 2. Guarda el archivo después de hacer los cambios.
 3. Reemplaza EDIFICIO, TIPO y MENU con su informacion correspondiente
+
 VALORES PERMITIDOS:
+
 EDIFICIO : Torres Castillo, Amazonas, Cafeteria AP, BGR
+
 TIPO: Desayuno, Almuerzo, Cena
+
 MENU: Completo, Vegano, Snack
 
 ## SEMANA COMPLETA o DÍA ESPECÍFICO
