@@ -70,5 +70,6 @@ main(use_filter=True, group=4)
 ```
 
 Reglas del filtro:
-    - group debe ser del 1 al 5
-    - 1 es Lunes y Viernes 5
+
+-  group debe ser del 1 al 5
+- 1 es Lunes y Viernes 5
