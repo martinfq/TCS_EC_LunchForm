@@ -23,12 +23,15 @@ El comportamiento puede ejecutarse **con o sin filtrado**, según la configuraci
 
 ##  Instalar dependencias
 
+```bash
 pip install -r requirements.txt
+```
 
-
-# 🧾 Archivo de valores
+# 🧾 Archivo a cambiar
 
 Los valores del formulario se cargan desde un archivo JSON -> values.json
+
+```json
 {
   "ULTIMATIX": "2952297",
   "NOMBRE": "Martin Fierro",
@@ -36,6 +39,7 @@ Los valores del formulario se cargan desde un archivo JSON -> values.json
   "TIPO": "Almuerzo",
   "MENU": "Completo"
 }
+```
 ### Instrucciones:
 1. Reemplaza los valores de las claves con tu información personal.
 2. Guarda el archivo después de hacer los cambios.
@@ -53,14 +57,17 @@ MENU: Completo, Vegano, Snack
 
 ### Para ejecutar la semana completa (sin filtro)
 
+```bash
 python main.py
-
+```
 
 Envía todos los campos del formulario sin modificaciones.
 
 ### Para ejecutar un dia especifico
-Cambiar en el codigo ->
+Cambiar en el codigo
+```python
 main(use_filter=True, group=4)
+```
 
 Reglas del filtro:
     - group debe ser del 1 al 5
